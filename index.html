@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Animated Side TOC Nav Demo</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet" type="text/css">
 <style>
 * { box-sizing: border-box; }
@@ -12,6 +11,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
   overflow: auto;
   background-color:#fafafa;
 }
@@ -104,20 +104,26 @@ body { font-size: 14px; }
 <body>
 <nav class="toc">
   <ul>
-    <li><a href="#intro">Section One</a></li>
-    <li> <a href="#dev">Section Two</a>
+    <li><a href="#intro">1. Introduction</a></li>
+    <li> <a href="#dev">2. Procedural </a>
       <ul>
-        <li><a href="#dev-edit-html">Section 2-1</a></li>
-        <li><a href="#dev-element-classes">Section 2-2</a></li>
-        <li><a href="#dev-slide-classes">Section 2-3</a></li>
-        <li><a href="#dev-export-html">Section 2-4</a></li>
+        <li><a href="#dev-edit-html">2.1 Control Structure</a></li>
+        <li><a href="#dev-element-classes">2.2 Functions</a></li>
+        <li><a href="#dev-slide-classes">2.3 Arrays
+</a></li>
+        <li><a href="#dev-export-html">2.4 File Handling</a></li>
       </ul>
     </li>
-    <li> <a href="#css">Section Three</a>
+    <li> <a href="#css">3. Object-Oriented</a>
       <ul>
-        <li><a href="#css-fonts">Section 3-1</a></li>
-        <li><a href="#css-developer-mode">Section 3-2</a></li>
-        <li><a href="#css-examples">Section 3-3</a></li>
+        <li><a href="#css-fonts">3.1 Classes & Objects
+</a></li>
+        <li><a href="#css-developer-mode">3.2 Inheritance 
+</a></li>
+        
+        <li><a href="#css-examples">
+          3.3 Access Specifiers </a>     
+        </li>
       </ul>
     </li>
   </ul>
@@ -126,90 +132,96 @@ body { font-size: 14px; }
   </svg> </nav>
 <article class="contents">
   <section id="about">
-    <h1>Animated Side TOC Nav Demo</h1>
+    <h1>Lecture 1: Introduction to C ++</h1>
+<div style="text-align: center;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkGRqvrJXK-NXv6z3oXmczf3I60poB-HgR3Y1yV5LavKaNnx9EcaZ22GOjDGL15BR2PBI&usqp=CAU" alt="Image Description">
+</div>
+
+
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- CSSSCRIPT_300 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-2783044520727903"
-     data-ad-slot="6181603598"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at molestie elit, tristique lacinia dolor. Curabitur rutrum, sem sit amet suscipit volutpat, metus mi euismod elit, vel rhoncus velit sapien quis urna. Praesent tristique dolor sed arcu laoreet semper vitae et nibh. Morbi eget metus suscipit, ultrices enim eget, pretium massa. Fusce varius magna in elit tristique, ac tincidunt sem venenatis. Vestibulum eleifend a leo a condimentum. Integer quis felis at lacus aliquet molestie vel at felis. Proin id leo vel mi tincidunt congue ac nec ligula. Vivamus faucibus sed arcu eu cursus. Vivamus sed nisi tellus. Duis vitae justo id turpis vehicula porta.</p>
+    <p>C++ is a powerful and widely used programming language that builds upon the foundations of the C programming language. It combines procedural, object-oriented, and generic programming features, making it versatile and suitable for a wide range of applications.</p>
   </section>
   <section id="intro">
-    <h2>Section One</h2>
-    <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-    <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-    <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+    <h2>Introduction to C ++</h2>
+    <p>At its core, a computer is just a processor with some memory, capable of running tiny
+instructions like “store 5 in memory location 23459.” Why would we express a program as
+a text file in a programming language, instead of writing processor instructions?<br>
+The advantages:<br>
+1. Conciseness: programming languages allow us to express common sequences of commands more concisely. C++ provides some especially powerful shorthands.<br>
+2. Maintainability: modifying code is easier when it entails just a few text edits, instead
+of rearranging hundreds of processor instructions. C++ is object oriented (more on
+that in Lectures 7-8), which further improves maintainability.<br>
+3. Portability: different processors make different instructions available. Programs written as text can be translated into instructions for many different processors; one of
+C++’s strengths is that it can be used to write programs for nearly any processor.
+C++ is a high-level language: when you write a program in it, the shorthands are sufficiently
+expressive that you don’t need to worry about the details of processor instructions. C++ does
+give access to some lower-level functionality than other languages (e.g. memory addresses). </p>
+   
   </section>
   <section>
     <div id="dev">
-      <h2>Section Two</h2>
+      <h2>Procedural Programming:</h2>
       <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+     
     </div>
     <div id="dev-edit-html">
-      <h3>Section 2-1</h3>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+      <h3>Control Structures:</h3>
+      <p>Control structures in C++ allow developers to control the flow of execution based on conditions. This includes if-else statements, switch-case statements, and loops like for, while, and do-while loops.</p>
+      
+      
     </div>
     <div id="dev-element-classes">
-      <h3>Section 2-2</h3>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+      <h3>Functions</h3>
+      <p>Functions in C++ enable code reusability by encapsulating a set of instructions into a named block. They can have input parameters and return values, allowing for modular and organized code structure.</p>
+     
     </div>
     <div id="dev-slide-classes">
-      <h3>Section 2-3</h3>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus. </p>
+      <h3>Arrays</h3>
+      <p>Arrays are a fundamental data structure in C++ that allow storing multiple elements of the same data type in a contiguous memory block. They provide efficient access to elements and are commonly used for tasks like storing collections of data.</p>
+      
+ 
+      
     </div>
     <div id="dev-export-html">
-      <h3>Section 2-4</h3>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+      <h3>File Handling</h3>
+    <p>
+      File handling in C++ involves reading from and writing to external files. It allows programmers to manipulate files, store data persistently, and interact with file systems. Common operations include opening, reading, writing, and closing files.
+    </p>
     </div>
   </section>
   <section>
     <div id="css">
-      <h2>Section Three</h2>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
+      <h2>Object-Oriented Programming:
+</h2>
+<p>
+  Object-oriented programming (OOP) in C++ focuses on creating objects that encapsulate data and behavior. It involves concepts such as classes, objects, inheritance, polymorphism, and encapsulation. Key subtopics in OOP include classes and objects, inheritance and polymorphism, constructors and destructors, and access specifiers.
+</p>
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+     
     </div>
     <div id="css-fonts">
-      <h3>Section 3-1</h3>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
+      <h3>Classes and Objects:</h3>
+      <p>
+        Classes define the blueprint for creating objects, which are instances of classes. They encapsulate data and behavior, providing a modular and reusable way to represent real-world entities.
+</p>
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+      
     </div>
     <div id="css-developer-mode">
-      <h3>Section 3-2</h3>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
+      <h3>Inheritance and Polymorphism:</h3>
+      <p>Inheritance allows the creation of new classes based on existing classes, inheriting their attributes and behaviors. Polymorphism enables objects of different classes to be treated as objects of a common base class, providing flexibility and extensibility.</p>
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
       <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
       <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
     </div>
     <div id="css-examples">
-      <h3>Section 3-3</h3>
-      <p>Morbi sed massa ligula. Donec pretium non justo non tempus. Aliquam erat volutpat. Ut non malesuada tellus. Pellentesque ut aliquet est. Curabitur at elit ut ante porta porta. Duis pulvinar vitae nunc vel finibus. Maecenas egestas libero ipsum, id mattis erat tincidunt vitae. Sed dignissim, massa sit amet laoreet convallis, arcu massa laoreet orci, vitae vulputate nisl ligula sit amet quam. Sed facilisis ac magna non tristique. Pellentesque non pretium magna. In id scelerisque sapien. In hac habitasse platea dictumst. In non aliquet purus. Donec quis lectus lacinia tortor vulputate pellentesque. Etiam a augue laoreet, imperdiet sapien et, feugiat turpis.</p>
+      <h3>Access Specifiers</h3>
+      <p>Access specifiers (public, private, and protected) control the visibility and accessibility of class members. They enforce encapsulation and define the level of interaction between classes and their objects.</p>
+      
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse commodo sit amet arcu et euismod. Phasellus viverra, sem non mattis tempor, nisi tellus scelerisque ante, vel egestas est ligula sit amet ex. Maecenas felis ex, lobortis vitae congue semper, aliquam sit amet arcu. Maecenas iaculis eros nulla, nec blandit ipsum aliquam eget. Pellentesque pretium, ligula interdum blandit ultrices, leo dolor aliquam lorem, ac semper nisi erat eget dui. Proin ultrices ante leo, sit amet commodo quam suscipit quis. Sed fermentum velit vel tortor pretium, a ultrices nisi scelerisque.</p>
-      <p>Nullam risus risus, faucibus ac elementum at, auctor eget massa. Duis porttitor enim orci, ac aliquam quam malesuada non. Ut molestie nulla facilisis, tincidunt libero at, lacinia elit. Aenean consequat tempor odio non hendrerit. Nam dictum, mi eleifend pulvinar viverra, nisl mi fringilla metus, non vestibulum est nibh nec quam. Aliquam sollicitudin tortor at hendrerit pharetra. Sed cursus ante vel sem euismod, porttitor consequat neque molestie.</p>
-      <p>Sed turpis ex, pulvinar vitae nulla quis, mollis tempor risus. Fusce id tempor elit. Morbi non volutpat nisl. Nunc rhoncus mattis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent finibus fringilla odio, eu pharetra nibh. Aliquam pharetra, nibh quis rutrum fringilla, quam ligula auctor sapien, dictum aliquam dolor nisl egestas eros. Phasellus in magna nisi. Sed hendrerit molestie vehicula. Sed viverra vel nulla in dapibus.</p>
+      
+     
     </div>
   </section>
 </article>
@@ -343,3 +355,4 @@ function sync() {
 </script>
 </body>
 </html>
+
